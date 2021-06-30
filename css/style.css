@@ -15,20 +15,32 @@ body {
     clear: both;
 }
 /* Header */
-.head-container {
+.background-header {
     /* position: relative; */
     background-image: url("../img/jumbo.png");
     height: 630px;
     background-size: cover;
 }
 
-nav {
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.row {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.background-blue {
     background-color: #3161e0;
 }
 
-/* .colum15-header {
-    position: relative;
-} */
+.colum15-header {
+    width: 15%;
+}
 
 .colum {
     float: left;
@@ -38,17 +50,32 @@ nav {
     width: calc(70% - 80px);
     margin-left: 40px;
     margin-right: 40px;
-}
-
-.logo, .nav-header, .access-button {
-    position: absolute;
+    text-align: center;
 }
 
 li {
     display: inline-block;
+    margin-left: 25px;
 }
 
 li a {
     text-decoration: none;
     color: white;
+    font-size: 17px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.access-button {
+    text-align: right;
+}
+
+.access-button a {
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 25%;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
 }
