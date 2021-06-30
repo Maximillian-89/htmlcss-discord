@@ -13,6 +13,10 @@ header {
     position: relative;
 }
 
+section {
+    height: 900px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -82,7 +86,7 @@ li a {
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
-    color: black;
+    color: #23272a;
 }
 
 .text-hero {
@@ -108,7 +112,7 @@ li a {
 }
 
 .download a {
-    color: black;
+    color: #23272a;
     border-radius: 28px;
     font-size: 20px;
     padding: 16px 32px;
@@ -162,6 +166,7 @@ li a {
 }
 
 .colum-main50r h2 {
+    color: #23272a;
     width: 50%;
     margin-left: 150px;
     font-weight: 700;
@@ -170,9 +175,51 @@ li a {
 }
 
 .colum-main50r p {
+    color: #23272a;
     margin-top: 20px;
     margin-left: 150px;
     width: 50%;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.text-bottom, .text-bottom2 {
+    text-align: center;
+}
+
+.text-bottom h2 {
+    color: #23272a;
+    font-size: 48px;
+}
+
+.text-bottom p {
+    color: #23272a;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+.bottom-img {
+    margin-left: 200px;
+}
+
+.text-bottom2 {
+    margin-top: 30px;
+}
+
+.text-bottom2 h4 {
+    color: #23272a;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.download2 {
+    margin-top: 30px;
+}
+
+.download2 a {
+    text-decoration: none;
+    color: white;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    background-color: #8ea1e1;
 }
